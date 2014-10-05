@@ -1,0 +1,47 @@
+<Modules>
+  <Module PersistentId="DF964371-A92C-4333-90EB-C50EE8FA57FA" ModuleId="ObjectDumperTests" />
+  <Module PersistentId="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=57f117d6-0f1d-4803-9943-f0373f947eea" ModuleId="mscorlib" />
+  <Module PersistentId="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=f35b1905-eb31-499a-b1ec-0e884d17becf" ModuleId="System" />
+  <Module PersistentId="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=f644d728-c1f1-48ef-b944-a5d0a59ded82" ModuleId="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+  <Module PersistentId="System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=86d72b42-fe14-44f7-9eeb-9412558864f3" ModuleId="System.Core" />
+  <Module PersistentId="System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=5305b49c-b9e3-4dfd-9bb8-a4b3c73fc998" ModuleId="System.Configuration" />
+  <Module PersistentId="System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=9e82231a-4aae-4180-b0ac-29f95ed8654f" ModuleId="System.Xml" />
+  <Module PersistentId="System.Data.SqlXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=ccca8fb2-897e-41f8-a772-8b087adf071f" ModuleId="System.Data.SqlXml" />
+  <Module PersistentId="System.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=c254b27b-b22b-4eac-ba8a-9c43f9d04499" ModuleId="System.Security" />
+  <Module PersistentId="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=ddfc88d2-94a7-4b0b-872d-a14ece6dbd6e" ModuleId="mscorlib_1" />
+  <Module PersistentId="System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=48e1df00-9348-49a6-a9e5-502eeeffb32f" ModuleId="System.Configuration_1" />
+  <Module PersistentId="System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=78a93289-e456-43b3-8e26-cb9a53543c90" ModuleId="System_1" />
+  <Module PersistentId="System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=430c15c6-3992-4531-8c3b-d923d540e253" ModuleId="System.Xml_1" />
+  <Module PersistentId="System.Data.SqlXml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=f881ef38-a044-41f8-be80-0ba4ccd24571" ModuleId="System.Data.SqlXml_1" />
+  <Module PersistentId="System.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=4bbd2fea-db90-4871-ade6-0f2c5b937ff2" ModuleId="System.Security_1" />
+  <Module PersistentId="System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=6dff99bb-a713-4ef1-a12c-580316e65c92" ModuleId="System.Data" />
+  <Module PersistentId="Microsoft.VisualC, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=9e502849-dddd-42c7-b33e-fd9f2d0ef856" ModuleId="Microsoft.VisualC" />
+  <Module PersistentId="System.Transactions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=956c2c2e-22cc-4c60-bc83-2dd0b8082ce9" ModuleId="System.Transactions" />
+  <Module PersistentId="System.EnterpriseServices, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=52490a4f-2be7-46ff-9a15-0f61ea1a483d" ModuleId="System.EnterpriseServices" />
+  <Module PersistentId="System.DirectoryServices, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=743b2ed0-f8e7-428b-a613-06cf48a6d087" ModuleId="System.DirectoryServices" />
+  <Module PersistentId="System.Runtime.Remoting, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=8f5a8f23-d0ff-44f5-ba36-105ee309ae48" ModuleId="System.Runtime.Remoting" />
+  <Module PersistentId="System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=582ed683-49f9-4c58-b119-10822652c480" ModuleId="System.Web" />
+  <Module PersistentId="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=e39b4a8e-12ee-4db7-882a-a376e4081e00" ModuleId="System.Drawing" />
+  <Module PersistentId="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=ac21d98a-3a20-477e-8c9c-c5383a77063e" ModuleId="System.Web.Services" />
+  <Module PersistentId="System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=23eb514a-cd32-4154-b67a-8792088823d2" ModuleId="System.Design" />
+  <Module PersistentId="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=5486a69e-ea6d-40ec-b0eb-c245afc8f1e7" ModuleId="System.Windows.Forms" />
+  <Module PersistentId="Accessibility, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=c8570295-06b3-4753-9b36-46bc05743e99" ModuleId="Accessibility" />
+  <Module PersistentId="System.Runtime.Serialization.Formatters.Soap, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=4a291858-291a-4f1a-88f1-0bc746b12379" ModuleId="System.Runtime.Serialization.Formatters.Soap" />
+  <Module PersistentId="System.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=a8092185-57ef-4614-b1b8-6439ad69edc7" ModuleId="System.Deployment" />
+  <Module PersistentId="System.Drawing.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=efdb7854-6a5b-4081-a8ec-9ad99faa7d91" ModuleId="System.Drawing.Design" />
+  <Module PersistentId="System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=fc43a1f0-bf3d-4c3c-95d9-db8de3ad0677" ModuleId="System.Data.OracleClient" />
+  <Module PersistentId="System.Web.RegularExpressions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=210e1a46-1039-41ce-b99c-d7cac16aac51" ModuleId="System.Web.RegularExpressions" />
+  <Module PersistentId="System.DirectoryServices.Protocols, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=0d28a029-6ef8-4f9a-9c56-af4878eae231" ModuleId="System.DirectoryServices.Protocols" />
+  <Module PersistentId="System.ServiceProcess, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=a71dfe90-22c1-49d6-9d62-bcdf5ea89493" ModuleId="System.ServiceProcess" />
+  <Module PersistentId="System.Configuration.Install, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=b945bdea-1d2b-4372-8df2-6fb62eb0984f" ModuleId="System.Configuration.Install" />
+  <Module PersistentId="System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=1f78b6d9-62c1-46d3-8674-ee21e6e790df" ModuleId="System.Numerics" />
+  <Module PersistentId="Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=a3fc6c53-7f10-4ff3-92ae-2ffd72620702" ModuleId="Microsoft.CSharp" />
+  <Module PersistentId="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=fcb9dac8-ae3a-4886-93b0-f4cd5b0db0be" ModuleId="mscorlib_2" />
+  <Module PersistentId="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=0467f5c0-e463-4b2c-acc5-f718cb71f056" ModuleId="System_2" />
+  <Module PersistentId="System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=5cf0fd1d-1fd0-4bba-a252-1ada56614cc6" ModuleId="System.Configuration_2" />
+  <Module PersistentId="System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=988a97e5-8665-4494-a7b2-6de411f61284" ModuleId="System.Xml_2" />
+  <Module PersistentId="System.Data.SqlXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=4bbea719-1477-4edc-95b9-869f3a0f1124" ModuleId="System.Data.SqlXml_2" />
+  <Module PersistentId="System.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, mvid=bf855c77-22f1-4a61-88ec-6d32b7bb48fb" ModuleId="System.Security_2" />
+  <Module PersistentId="System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=c08d55d3-6463-439d-b112-60f6502ec141" ModuleId="System.Core_1" />
+  <Module PersistentId="System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, mvid=65c548c3-1a8b-438e-8150-850baea15a84" ModuleId="System.Numerics_1" />
+</Modules>
