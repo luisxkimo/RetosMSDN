@@ -1,5 +1,0 @@
-C:\Users\LuisA\Documents\Visual Studio 2013\Projects\Reto 3\ObjectDumper\ObjectDumperTests\bin\Debug\ObjectDumperTests.dll
-C:\Users\LuisA\Documents\Visual Studio 2013\Projects\Reto 3\ObjectDumper\ObjectDumperTests\bin\Debug\ObjectDumperTests.pdb
-C:\Users\LuisA\Documents\Visual Studio 2013\Projects\Reto 3\ObjectDumper\ObjectDumperTests\obj\Debug\ObjectDumperTests.dll
-C:\Users\LuisA\Documents\Visual Studio 2013\Projects\Reto 3\ObjectDumper\ObjectDumperTests\obj\Debug\ObjectDumperTests.pdb
-C:\Users\LuisA\Documents\Visual Studio 2013\Projects\Reto 3\ObjectDumper\ObjectDumperTests\obj\Debug\ObjectDumperTests.csprojResolveAssemblyReference.cache
