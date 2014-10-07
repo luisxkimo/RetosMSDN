@@ -52,6 +52,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="ObjectDumper.cs" />
+    <Compile Include="ObjectDumper2.cs" />
     <Compile Include="Test1Class.cs" />
     <Compile Include="Test2Class.cs" />
     <Compile Include="Test3Class.cs" />

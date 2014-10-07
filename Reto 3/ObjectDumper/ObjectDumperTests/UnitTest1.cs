@@ -46,7 +46,7 @@ namespace ObjectDumperTests
             var dumper = new ObjectDumper<Test2Class.Test2Inner>();
             dumper.AddTemplateFor(o => o.Value, v => v == 42 ? IS_42 : IS_NOT_42);
 
-            var data = new Test2Class.Test2Inner()
+            var data = new Test2Class.Test2Inner
             {
                 Name = "Some name",
                 Value = 42
@@ -70,23 +70,23 @@ namespace ObjectDumperTests
                 }
             };
             var dumper = new ObjectDumper<Ufo>();
-            dumper.AddTemplateFor(u => u.Origin, o => string.Format("Planet: {0}", o.Name));
+            dumper.AddTemplateFor(u => u.Origin, o => string.Format("Planet: {0} DaysPerYear: {1}", o.Name, o.DaysPerYear));
 
             var desc = dumper.Dump(ufo);
 
             Assert.IsNotNull(desc.SingleOrDefault(kvp =>
-                kvp.Key == "Origin" && kvp.Value == string.Format("Planet: {0}", ufo.Origin.Name)));
+                kvp.Key == "Origin" && kvp.Value == string.Format("Planet: {0} DaysPerYear: {1}", ufo.Origin.Name, ufo.Origin.DaysPerYear)));
         }
 
         [TestMethod]
         public void Not_Listed_Property_Is_Not_Invoked()
         {
             var dumper = new ObjectDumper<CrashedUfo>();
-            var crashed = new CrashedUfo()
+            var crashed = new CrashedUfo
             {
                 Name = "Conqueror III",
                 Speed = 10,
-                Origin = new Planet()
+                Origin = new Planet
                 {
                     Name = "Alpha Centauri 3",
                     DaysPerYear = 452
@@ -99,19 +99,36 @@ namespace ObjectDumperTests
             Assert.AreEqual(2, twoPropertiesList.Count);
         }
 
+        [TestMethod]
+        public void Null_properties_return_empty_string_value()
+        {
+            var ufo = new Ufo
+            {
+                Name = null,
+                Speed = 10,
+                Origin = new Planet
+                {
+                    Name = "",
+                    DaysPerYear = 453
+                }
+            };
+
+            var dumper = new ObjectDumper<Ufo>();
+
+            var desc = dumper.Dump(ufo);
+
+            Assert.AreEqual("", desc.SingleOrDefault(x => x.Key == "Name").Value);
+        }
 
         [TestMethod]
-        public void Dumping_with_template_generates_correct_strings()
+        [ExpectedException(typeof(NullReferenceException))]
+        public void Null_Complex_throw_exception_if_try_format_its_properties()
         {
             var ufo = new Ufo()
             {
                 Name = "Conqueror III",
                 Speed = 10,
-                Origin = new Planet()
-                {
-                    Name = "Alpha Centauri 3",
-                    DaysPerYear = 452
-                }
+                Origin = null
             };
 
             var dumper = new ObjectDumper<Ufo>();
@@ -119,8 +136,7 @@ namespace ObjectDumperTests
 
             var desc = dumper.Dump(ufo);
 
-            Assert.AreEqual(string.Format("Planet: {0} DaysPerYear: {1}", ufo.Origin.Name, ufo.Origin.DaysPerYear), desc.SingleOrDefault(x => x.Key == "Origin").Value);
+            Assert.AreEqual(string.Format("Planet: {0} DaysPerYear: {1}", "", ufo.Origin.DaysPerYear), desc.SingleOrDefault(x => x.Key == "Origin").Value);
         }
-
     }
 }
